@@ -9,13 +9,13 @@ none
 Role Variables
 --------------
 
-# wal-g version to fetch
+### wal-g version to fetch
 walg_version: v0.2.11
 
-# default wal-g releases repository url
+### default wal-g releases repository url
 walg_url: "https://github.com/wal-g/wal-g/releases/download/{{walg_version}}/wal-g.linux-amd64.tar.gz"
 
-# wal-g install path
+### wal-g install path
 walg_binary_path: /usr/local/sbin
 
 Dependencies
