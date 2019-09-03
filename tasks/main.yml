@@ -1,2 +1,8 @@
 ---
 # tasks file for wal-g.role
+
+- name: Download wal-g
+  unarchive:
+    src: "{{ walg_url }}"
+    dest: "{{ walg_binary_path }}"
+    remote_src: true

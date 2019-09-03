@@ -1,2 +1,7 @@
 ---
 # defaults file for wal-g.role
+
+walg_version: v0.2.11
+walg_url: "https://github.com/wal-g/wal-g/releases/download/{{walg_version}}/wal-g.linux-amd64.tar.gz"
+
+walg_binary_path: /usr/local/sbin
