@@ -31,7 +31,7 @@ passed in as parameters) is always nice for users too:
 
     - hosts: servers
       roles:
-         - { role: wal-g.role, walg_version: v0.2.11 }
+         - { role: ansible_wal_g_install, walg_version: v0.2.11 }
 
 License
 -------
